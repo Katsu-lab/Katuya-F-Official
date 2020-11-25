@@ -1,0 +1,83 @@
+.category {
+  margin-bottom: 10vh;
+}
+
+.category .title {
+  width: 40%;
+  margin-left: 10vw;
+}
+
+.category .title h3 {
+  font-size: 3vw;
+}
+
+.category .title hr {
+  border: 10px solid #f44555;
+}
+
+table {
+  width: 70%;
+  margin: 30px auto;
+}
+
+table th {
+  position: relative;
+  text-align: left;
+  width: 30%;
+}
+
+table th:after {
+  display: block;
+  content: "";
+  width: 3vw;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 4vw;
+}
+
+.basic th {
+  width: 25%;
+}
+
+.group td a {
+  font-size: 1.1em;
+}
+
+.group td a:hover {
+  color: #f44555;
+}
+
+.box {
+  width: 70%;
+  padding: 0.5em 1em;
+  margin: 10px auto;
+  color: #232323;
+  background: #feeeef;
+  border-left: solid 14px #faa5ad;
+}
+
+.box p {
+  margin: 0;
+  padding: 0;
+}
+
+.box p a {
+  color: #f44555;
+}
+
+@media screen and (max-width: 824px) {
+  .category .title hr {
+    border: 5px solid #f44555;
+  }
+  .box {
+    padding: 1vw;
+  }
+  th:after {
+    width: 2.5vw !important;
+    height: 1px !important;
+    right: 2vw !important;
+  }
+}
+/*# sourceMappingURL=profile.css.map */

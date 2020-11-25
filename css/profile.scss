@@ -1,0 +1,113 @@
+// @import "style";
+
+// CONFIGURE
+///////////////////////
+
+$color_font: #333;
+$color_red: #f44555;
+$color_blue: #45a4f4;
+$color_green: #45f4b8;
+$color_yellow: #f4e650;
+$color_gray: #e5e6e6f9;
+$font_title: 'Acme', sans-serif;
+$font_text: 'Yu Gothic', sans-serif;
+$font_item: 'MuseoModerno', cursive;
+
+
+.category {
+    margin-bottom: 10vh;
+
+    .title {
+        width: 40%;
+        margin-left: 10vw;
+
+        h3 {
+            font-size: 3vw;
+        }
+
+        hr {
+            border: 10px solid $color_red;
+        }
+    }
+}
+
+table{
+  width: 70%;
+  margin: 30px auto;
+
+  th{
+    position: relative;
+    text-align: left;
+    width: 30%;
+
+    &:after{
+        display: block;
+        content: "";
+        width: 3vw;
+        height: 2px;
+        background-color: #333;
+        position: absolute;
+        top:calc(50% - 1px);
+        right: 4vw;
+      }
+  }
+}
+
+.basic {
+    th{
+      width: 25%;
+    }
+}
+.group {
+    td {
+        a {
+            font-size: 1.1em;
+            &:hover{
+                color: $color_red;
+            }
+        }
+    }
+}
+
+.box {
+    width: 70%;
+    padding: 0.5em 1em;
+    margin: 10px auto;
+    color: #232323;
+    background: lighten($color_red, 35);
+    border-left: solid 14px lighten($color_red, 20);
+
+    p {
+        margin: 0;
+        padding: 0;
+
+        a {
+            color: $color_red;
+        }
+    }
+}
+
+
+@media screen and (max-width: 824px){
+
+    .category {
+        .title {
+            hr {
+                border: 5px solid $color_red;
+            }
+        }
+
+    }
+
+    .box {
+        padding: 1vw;
+    }
+
+    th{
+        &:after{
+            width: 2.5vw !important;
+            height: 1px !important;
+            right: 2vw !important;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+// @import "style";
+
+// CONFIGURE
+///////////////////////
+
+$color_font: #333;
+$color_red: #f44555;
+$color_blue: #45a4f4;
+$color_green: #45f4b8;
+$color_yellow: #f4e650;
+$color_gray: #e5e6e6f9;
+$font_title: 'Acme', sans-serif;
+$font_text: 'Yu Gothic', sans-serif;
+$font_item: 'MuseoModerno', cursive;
+
+
+.row {
+    display: flex;
+    height: 70%;
+
+    .col-1 {
+        width: 8.3333%;
+        height: 100%;
+    }
+    .col-3 {
+        width: 25%;
+        height: 100%;
+        padding: 10px;
+    }
+    .col-7 {
+        width: 58.3333%;
+        height: 100%;
+        padding: 10px;
+    }
+    .col-10 {
+        width: 83.3333%;
+        height: 100%;
+        padding: 10px;
+    }
+}
+
+
+.category {
+    margin-bottom: 10vh;
+
+    .title {
+        width: 40%;
+        margin-left: 10vw;
+
+        h3 {
+            font-size: 3vw;
+        }
+
+        hr {
+            border: 10px solid $color_blue;
+        }
+    }
+
+}
+
+.item {
+    text-align: center;
+
+    h3 {
+        display: inline-block;
+        margin-top: 30px;
+    }
+}
+
+table{
+    width: 60%;
+    margin: 30px auto 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    tr:first-child{
+        background-color: $color_gray
+    }
+
+    th, td{
+        padding: 10px 0;
+        text-align: center;
+      }
+
+    tr{
+        border-bottom: solid 2px #eee;
+
+        a {
+            &:hover{
+                color: $color_blue;
+            }
+        }
+
+        // td:hover{
+        //     background: lighten($color_blue, 20);
+        // }
+    }
+  }
+
+  @media screen and (max-width: 824px){
+    .category {
+
+        .title {
+
+            hr {
+                border: 5px solid $color_blue;
+            }
+        }
+
+    }
+  }
+

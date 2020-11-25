@@ -1,0 +1,142 @@
+// @import "style";
+
+// CONFIGURE
+///////////////////////
+
+$color_font: #333;
+$color_red: #f44555;
+$color_blue: #45a4f4;
+$color_green: #45f4b8;
+$color_yellow: #f4e650;
+$color_gray: #e5e6e6f9;
+$font_title: 'Acme', sans-serif;
+$font_text: 'Yu Gothic', sans-serif;
+$font_item: 'MuseoModerno', cursive;
+
+
+.row {
+    display: flex;
+    height: 70%;
+
+    .col-1 {
+        width: 8.3333%;
+        height: 100%;
+    }
+    .col-3 {
+        width: 25%;
+        height: 100%;
+        padding: 10px;
+    }
+    .col-7 {
+        width: 58.3333%;
+        height: 100%;
+        padding: 10px;
+    }
+    .col-10 {
+        width: 83.3333%;
+        height: 100%;
+        padding: 10px;
+    }
+}
+
+
+.category {
+    margin-bottom: 10vh;
+
+    .col-10 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title {
+        width: 40%;
+        margin-left: 10vw;
+
+        h3 {
+            font-size: 3vw;
+        }
+
+        hr {
+            border: 10px solid $color_green;
+        }
+    }
+
+    .works {
+        width: 300px;
+        height: 400px;
+        margin: 30px auto;
+
+        .worksHead {
+            height: 50%;
+            text-align: center;
+
+            img {
+                height: 90%;
+                width: 100%;
+            }
+
+            .vertical {
+                height: 90%;
+                width: auto;
+            }
+        }
+
+        .worksName {
+            padding-top: 5px;
+            height: 20%;
+
+            h5 {
+                color: $color_font;
+                display: inline-block;
+                margin: 10px 0;
+            }
+
+            p {
+                padding-left: 10px;
+                font-size: 1.1vw;
+            }
+        }
+
+        .worksBody {
+            margin-top: 10px;
+            height: 30%;
+            text-overflow: ellipsis;
+            overflow: scroll;
+            padding: 3px;
+
+            p {
+                font-size: 1.1vw;
+            }
+        }
+
+        hr {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .works {
+        width: 480px !important;
+        height: 640px !important;
+
+        .worksName {
+            height: 15% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 824px){
+
+    .category {
+        .title {
+            hr {
+                border: 5px solid $color_green;
+            }
+        }
+    }
+
+    .worksName {
+        height: 15% !important;
+    }
+}

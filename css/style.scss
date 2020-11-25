@@ -1,0 +1,827 @@
+@charset "utf-8";
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&family=MuseoModerno:wght@600&display=swap" rel="stylesheet"');
+
+// CONFIGURE
+///////////////////////
+
+$color_font: #333;
+$color_red: #f44555;
+$color_blue: #45a4f4;
+$color_green: #45f4b8;
+$color_yellow: #f4e650;
+$color_gray: #e5e6e6f9;
+$font_title: 'Acme', sans-serif;
+$font_text: 'Yu Gothic', sans-serif;
+$font_item: 'MuseoModerno', cursive;
+
+
+// RESET
+////////////////////////
+
+* {font-size: 1.3vw; line-height: 1.8em; font-family: $font_text; color: $color_font; box-sizing: border-box;}
+html, body {margin: 0; padding: 0; overflow-x: hidden;}
+h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; line-height: 1em;}
+p {margin: 0; padding: 0;}
+a {text-decoration: none;}
+ul {margin: 0; padding: 0}
+li {list-style: none;}
+table {border-collapse: collapse; table-layout: fixed;}
+
+
+// STYLE
+////////////////////////
+
+
+//// General ////
+
+h3 {
+    font-size: 2vw;
+}
+
+h5 {
+    font-size: 1.5vw;
+}
+
+section:not(#nav) {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+/// Hamburger menu
+
+.drawer-hidden {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    position: fixed;
+
+// icon
+    span {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background: #333;
+        transition: 0.5s;
+        position: absolute;
+
+        &:before {
+            bottom: 8px;
+            content: '';
+            display: block;
+            height: 3px;
+            width: 25px;
+            border-radius: 3px;
+            background: #333;
+            transition: 0.5s;
+            position: absolute;
+        }
+        &:after {
+            top: 8px;
+            content: '';
+            display: block;
+            height: 3px;
+            width: 25px;
+            border-radius: 3px;
+            background: #333;
+            transition: 0.5s;
+            position: absolute;
+        }
+    }
+
+    img {
+        width: 50px;
+    }
+}
+
+.drawer-open {
+    right: 0;
+}
+
+// from hum to cross
+#drawer-check:checked ~ .drawer-open span {
+background: rgba(255, 255, 255, 0);
+
+    &:before {
+        bottom: 0;
+        transform: rotate(45deg);
+        }
+
+    &:after {
+        top: 0;
+        transform: rotate(-45deg);
+        }
+
+}
+
+// design
+  .drawer-content {
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 99;
+    background: rgba($color: white, $alpha: 0.5);
+    transition: .5s;
+    padding: 10px;
+
+    a {
+        font-size: 8px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+  }
+
+#drawer-check:checked ~ .drawer-content {
+    left: 70vw;
+}
+
+#hamburger {
+    display: none;
+}
+
+
+/// Basic structure
+
+.contents {
+    height: 30vw;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+
+    .contents-body {
+        width: 100%;
+        height: 100%;
+        background: white;
+
+        .more {
+            text-align: center;
+        }
+    }
+
+    .sample {
+        text-align: center;
+        padding: 5px;
+    }
+}
+
+.gridL {
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 70%;
+    grid-template-columns: 10% 25% 55% 10%;
+    grid-template-areas:
+    "leftSide title body rightSide";
+
+    .col-left {
+        grid-area: leftSide;
+    }
+    .col-title {
+        grid-area: title;
+        padding-right: 25px;
+    }
+    .col-body {
+        grid-area: body;
+        padding-left: 25px;
+        height: 100%;
+    }
+    .col-right {
+        grid-area: rightSide;
+    }
+}
+
+.gridR {
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 70%;
+    grid-template-columns: 10% 55% 25% 10%;
+    grid-template-areas:
+    "leftSide body title rightSide";
+
+    .col-left {
+        grid-area: leftSide;
+    }
+    .col-title {
+        grid-area: title;
+        padding-left: 25px;
+    }
+    .col-body {
+        grid-area: body;
+        padding-right: 25px;
+    }
+    .col-right {
+        grid-area: rightSide;
+    }
+}
+
+
+/// Background logo
+
+.big-item {
+    height: 30%;
+    position: relative;
+    text-align: center;
+
+    h2 {
+        font-family: $font_item;
+        color: $color_gray;
+        font-size: 15vw;
+        animation-duration: 8s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes moveRight {
+    100% {
+        transform: translateX(32vw);
+    }
+}
+
+@keyframes moveLeft {
+    100% {
+        transform: translateX(-32vw);
+    }
+}
+
+/// Button Custom
+
+.btn {
+    width: 10vw;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;
+
+    &:hover {
+        margin-top: 4px;
+    }
+}
+
+.btnRed {
+    background-color: $color_red;
+    border-bottom: 7px solid darken($color_red, 20);
+
+    &:hover {
+        background: lighten($color_red,10);
+        border-bottom: 3px solid darken($color_red, 20);
+      }
+}
+
+.btnBlue {
+    background-color: $color_blue;
+    border-bottom: 7px solid darken($color_blue, 20);
+
+    &:hover {
+        background: lighten($color_blue,10);
+        border-bottom: 3px solid darken($color_blue, 20);
+      }
+}
+
+.btnGreen {
+    background-color: $color_green;
+    border-bottom: 7px solid darken($color_green, 20);
+
+    &:hover {
+        background: lighten($color_green,10);
+        border-bottom: 3px solid darken($color_green, 20);
+      }
+}
+
+.btnYellow {
+    background-color: $color_yellow;
+    border-bottom: 7px solid darken($color_yellow, 20);
+
+    &:hover {
+        background: lighten($color_yellow,10);
+        border-bottom: 3px solid darken($color_yellow, 20);
+      }
+}
+
+/// Navigation
+
+#nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background: rgba($color: white, $alpha: 0.5);
+
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 20px;
+
+        &:hover {
+            background: white;
+            box-shadow: 0 2px 10px rgb(80, 78, 78);
+        }
+
+        li:nth-child(2) {
+            a:hover {
+                text-shadow: 0 0 10px blue;
+            }
+        }
+
+        li:nth-child(3) {
+            a:hover {
+                text-shadow: 0 0 10px $color_red;
+            }
+        }
+
+        li:nth-child(4) {
+            a:hover {
+                text-shadow: 0 0 10px $color_blue;
+            }
+        }
+
+        li:nth-child(5) {
+            a:hover {
+                text-shadow: 0 0 10px $color_green;
+            }
+        }
+
+        li:nth-child(6) {
+            a:hover {
+                text-shadow: 0 0 10px $color_yellow;
+            }
+        }
+
+        li:nth-child(7) {
+            a:hover {
+                text-shadow: 0 0 10px orange;
+            }
+        }
+
+
+        img {
+            height: 90px;
+        }
+
+        a {
+            font-family: $font_item;
+        }
+    }
+}
+
+/// Header
+
+#header {
+    background: url("../img/hero1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .header {
+        text-align: center;
+        transform: translateY(40vh);
+
+        h1 {
+            font-size: 7vw;
+            font-family: $font-item;
+        }
+    }
+
+    #leftSide {
+        transform: rotate(-90deg);
+        left: -90px;
+        z-index: 1000;
+    }
+
+    #rightSide {
+        transform: rotate(90deg);
+        right: -90px;
+        z-index: 1000;
+    }
+
+    aside {
+        position: fixed;
+        top: 40%;
+
+        div {
+            display: inline-block;
+        }
+
+        div:first-child {
+            margin-right: 100px;
+        }
+
+        .fab, .far {
+            font-size: 20px;
+        }
+
+        span {
+            position: relative;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        span::after {
+            content: "";
+            display: block;
+            height: 1.3px;
+            width: 70px;
+            background: $color_font;
+            position: absolute;
+            left: 120px;
+            top: 6px;
+        }
+    }
+
+}
+
+
+/// Main items
+
+#profile {
+
+    h2 {
+        animation-name: moveRight;
+    }
+
+    hr {
+        border-color: $color_red;
+    }
+
+    .col{
+        p {
+            font-size: 5vw;
+            color: $color_red;
+        }
+    }
+
+    .contents {
+        background: $color_red;
+        box-shadow: 20px 20px darken($color_red,20);
+    }
+
+    span {
+        color : $color_red;
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 75%;
+    }
+}
+
+#skill {
+
+    h2 {
+        animation-name: moveLeft;
+    }
+
+    hr {
+        border-color: $color_blue;
+    }
+
+    .col{
+        p {
+            font-size: 5vw;
+            color: $color_blue;
+        }
+    }
+
+    .contents {
+        background: $color_blue;
+        box-shadow: 20px 20px darken($color_blue,20);
+    }
+
+    img {
+        width: 90%;
+    }
+}
+
+#portfolio {
+
+    h2 {
+        animation-name: moveRight;
+    }
+
+    hr {
+        border-color: $color_green;
+    }
+
+    .col{
+        p {
+            font-size: 5vw;
+            color: $color_green;
+        }
+    }
+
+    .contents {
+        background: $color_green;
+        box-shadow: 20px 20px darken($color_green,20);
+
+    }
+
+    .sample {
+        padding-bottom: 5px;
+    }
+
+    span {
+        color : $color_green;
+        font-size: 1.2em;
+    }
+
+    img {
+        border: solid 3px $color_font;
+        width: 65%;
+    }
+
+
+}
+
+#contact {
+
+    h2 {
+        animation-name: moveLeft;
+    }
+
+    hr {
+        border-color: $color_yellow;
+    }
+
+    .col{
+        p {
+            font-size: 5vw;
+            color: $color_yellow;
+        }
+    }
+
+    .contents {
+        background: $color_yellow;
+        box-shadow: 20px 20px darken($color_yellow,20);
+
+        .contents-body {
+            text-align: center;
+
+            .mail-box {
+                background: lighten($color_yellow,20);
+                margin: 1vw;
+                margin-bottom: 1.8vw;
+
+                .box-title {
+                    font-size: 1.4em;
+                    background: $color_yellow;
+                    padding: 4px;
+                    color: #FFF;
+                    font-weight: bold;
+                    letter-spacing: 0.05em;
+                }
+
+                p {
+                    padding: 1.5vw;
+                    font-size: 2em;
+
+                    a {
+                        font-size: 2vw;
+
+                        &:hover {
+                            color: orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/// Button to back
+.back {
+    margin-top: 10vh;
+
+    .pagetop a{
+        display: block;
+        font-size: 0;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        background: $color_font;
+        line-height: 50px;
+        margin: 50px auto 20px;
+    }
+
+    .pagetop a i{
+        font-size: 20px;
+        color:#fff;
+        line-height: 50px;
+    }
+    p {
+        display: block;
+    }
+}
+
+
+//// Media Query ////
+
+@media screen and (max-width: 824px){
+
+    .header {
+        transform: translateY(35vh) !important;
+    }
+
+    .contents {
+        height: 40vw;
+
+        .contents-body {
+            width: 100%;
+        }
+
+        .sample {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    section:not(#nav) {
+        width: 100%;
+        height: 80vh;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .gridL, .gridR {
+        grid-template-rows: 30% 70%;
+        grid-template-columns: 10% 80% 10%;
+        grid-template-areas:
+        "leftSide title rightSide"
+        "leftSide body rightSide";
+    }
+
+    .big-item {
+        position: relative;
+
+        h2 {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+    #profile, #skill, #portfolio, #contact {
+        h2 {
+            animation: none;
+        }
+    }
+
+    #profile {
+        .contents {
+            box-shadow: 10px 10px darken($color_red,20);
+        }
+    }
+
+    #skill {
+        .contents {
+            box-shadow: 10px 10px darken($color_blue,20);
+        }
+    }
+
+    #portfolio {
+        .contents {
+            box-shadow: 10px 10px darken($color_green,20);
+        }
+    }
+
+    #contact {
+        .contents {
+            box-shadow: 10px 10px darken($color_yellow,20);
+        }
+    }
+
+    aside {
+        span::after {
+            left: 110px !important;
+            top: 8px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .header {
+        transform: translateY(25vh) !important;
+    }
+
+    .contents {
+        height: 40vw;
+    }
+
+    .col-title {
+        br {
+            display: none;
+        }
+    }
+
+    .btn {
+        width: 15vw;
+        display: inline-block;
+        text-align: center;
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bold;
+
+        &:hover {
+            margin-top: 3px;
+        }
+    }
+
+    .btnRed {
+        background-color: $color_red;
+        border-bottom: 5px solid darken($color_red, 20);
+
+        &:hover {
+            background: lighten($color_red,10);
+            border-bottom: 2px solid darken($color_red, 20);
+          }
+    }
+
+    .btnBlue {
+        background-color: $color_blue;
+        border-bottom: 5px solid darken($color_blue, 20);
+
+        &:hover {
+            background: lighten($color_blue,10);
+            border-bottom: 2px solid darken($color_blue, 20);
+          }
+    }
+
+    .btnGreen {
+        background-color: $color_green;
+        border-bottom: 5px solid darken($color_green, 20);
+
+        &:hover {
+            background: lighten($color_green,10);
+            border-bottom: 2px solid darken($color_green, 20);
+          }
+    }
+
+    .btnYellow {
+        background-color: $color_yellow;
+        border-bottom: 5px solid darken($color_yellow, 20);
+
+        &:hover {
+            background: lighten($color_yellow,10);
+            border-bottom: 2px solid darken($color_yellow, 20);
+          }
+    }
+
+    section:not(#nav) {
+        width: 100%;
+        height: 60vh;
+        padding: 20px;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #portfolio {
+        h4 {
+            display: none;
+        }
+
+        img {
+            width: 80%;
+        }
+    }
+
+    aside {
+        span::after {
+            left: 110px !important;
+            top: 8px !important;
+        }
+    }
+}
+
+
+
+
