@@ -66,7 +66,22 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/site_underground.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>Home's bar UnderGround</h5>
+                            <p>HTML / CSS / Javascript(jQuery)</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>The name and the photos used are based on the bar where he actually worked.<br>
+                            This site was created for practicing jQuery, and uses a mechanism to easily create and add drink menus.<br>
+                            Regarding the design, I created it with reference to the header of the official website of Apple Business, and the contrast of black and dark orange creates a calm atmosphere as a whole page.
+                            </p>
+                        </div>
+                    </div>
                 <div class="col col-1"></div>
             </div>
         </div>
@@ -121,6 +136,23 @@
                             <p>This is an EC site of a fictitious company "To You", which was created based on the idea that Japan has a culture of "giving things to others" such as summer greetings and midsummer gifts. <br>
                              The feature of the service provided on this site is that you can only buy things for others, not as a gift for yourself. It can be expected that there will be some work that will not damage the culture of young people, such as leaving New Year's cards. <br>
                              In addition, this site is a product created as a practice of web design with Wordpress, and although it is possible to set the price for adding / deleting products, the service part is incomplete because the actual trading function was abandoned in the middle.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/mdp.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>MDP</h5>
+                            <p>Javascript(Vue.js,Node.js, NestJS) / SQL</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>This is one of the projects I was involved in during my internship at a Cambodian company. This was my first corporate project, and it was a Web service created by team development.<br>
+                            This service acts as an intermediary between clients and vendors, and processes and records the details of product management and transactions in general.<br>
+                            We used RESTful API and it was new first specification to me, so I studied a lot.<br>
+                            The reviews of veteran engineers were also rigorous, and it was an experience that felt like a professional work.
                             </p>
                         </div>
                     </div>
@@ -184,7 +216,7 @@
                             <a href="img/paper_kotowaza.pdf"><img src="img/paper_kotowaza.png" alt=""></a>
                         </div>
                         <div class="worksName">
-                            <h5>Abstraction Skill Training System by creating concept construction of proverb</h5>
+                            <h5>Abstraction Skill Training System by creating concept of proverb</h5>
                         </div>
                         <hr>
                         <div class="worksBody">

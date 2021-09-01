@@ -66,6 +66,22 @@
                             </p>
                         </div>
                     </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/site_underground.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>Home's bar UnderGround</h5>
+                            <p>HTML / CSS / Javascript(jQuery)</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>名前と使用した写真は実際に自身が働いていたバーを基にしている．<br>
+                            jQueryの練習のために作成したサイトであり，ドリンクメニューを簡易的に作成，追加でいる仕組みを採用している．<br>
+                            デザインに関してはApple Businessの公式サイトのヘッダーを参考に作成し，ページ全体としては黒と暗いオレンジのコントラストが落ち着いた雰囲気を演出している．
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col col-1"></div>
             </div>
@@ -121,6 +137,23 @@
                             <p>日本には暑中見舞い，お中元などの「他者に物を贈る」イベントもとい文化がある事に着想を得て制作した架空の会社「To You」のECサイトである．<br>
                             このサイト内で提供されるサービスの特徴は他者にのみ物を購入する事ができ，自分へのプレゼントとして購入できないと言うことがあげられる．若者の年賀状離れ等の文化が損なわれないような働きもあるのではと期待できる．<br>
                             また，このサイトは自身のWordpressでのWebデザインの練習として作成した成果物であり，商品の追加・削除値段の設定などはできるが実際の売買機能については途中で断念したためサービス部分は未完成である．
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/mdp.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>MDP</h5>
+                            <p>Javascript(Vue.js,Node.js, NestJS) / SQL</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>カンボジアの企業にてインターン期間中に自身が携わらせていただいたプロジェクトの一つである．自身にとって初めての企業案件であり，チーム開発で作成したWebサービスである．<br>
+                            このサービスはクライアントとベンダーの仲介部分を担っており，商品の管理や取引全般の詳細を手続き，記録している．<br>
+                            RESTful APIを採用しており，自身にとって初めての仕様だったため，勉強することが多かった．<br>
+                            ベテランエンジニアのレビューも厳格で，プロの現場を感じた経験だった．
                             </p>
                         </div>
                     </div>

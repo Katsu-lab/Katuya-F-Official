@@ -21,37 +21,40 @@
                 <hr>
             </div>
             <div class="item">
-                <h3>プログラム</h3>
+                <h3>プログラミング言語</h3>
                 <table>
                     <tr>
                         <th>スキルレベル</th>
-                        <th>スキル名</th>
+                        <th>言語名</th>
                     </tr>
                     <tr>
-                        <td rowspan="4">実務レベル</td>
-                        <td>Python3, Flask</td>
-                    </tr>
-                    <tr>
+                        <td rowspan="6">実務</td>
                         <td>HTML5</td>
                     </tr>
                     <tr>
-                        <td>CSS3/SCSS, Bootstrap4</td>
+                        <td>CSS3, SCSS / Bootstrap4</td>
                     </tr>
                     <tr>
-                        <td>PHP</td>
+                        <td>Javascript(クライアント) /JQuery, Vue.js</td>
                     </tr>
                     <tr>
-                        <td rowspan="4">趣味レベル</td>
-                        <td>Javascript, JQuery</td>
+                        <td>PHP / Laravel</td>
                     </tr>
                     <tr>
+                        <td>Javascript(サーバ) / Node.js, Express, NestJS</td>
+                    </tr>
+                    <tr>
+                        <td>Python3 / Flask</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">趣味</td>
                         <td>Go</td>
                     </tr>
                     <tr>
                         <td>C</td>
                     </tr>
                     <tr>
-                        <td>Bash</td>
+                        <td>Prolog</td>
                     </tr>
                 </table>
             </div>
@@ -62,10 +65,10 @@
                     <tr>
                         <th>スキルレベル</th>
                         <th>種類</th>
-                        <th>スキル名</th>
+                        <th>技術名</th>
                     </tr>
                     <tr>
-                        <td rowspan="6">実務レベル</td>
+                        <td rowspan="11">実務</td>
                         <td>Webサーバ</td>
                         <td>MAMP</td>
                     </tr>
@@ -74,9 +77,25 @@
                         <td>MySQL</td>
                     </tr>
                     <tr>
+                        <td>PaaS</td>
+                        <td>Google Cloud Platform</td>
+                    </tr>
+                    <tr>
                         <td>CMS</td>
                         <td>Wordpress</td>
                     </tr>
+                    <tr>
+                        <td>VCS</td>
+                        <td>Git</td>
+                    </tr>
+                    <tr>
+                        <td>シェルスクリプト</td>
+                        <td>Bash</td>
+                    </tr>
+                    <tr?>
+                        <td>Wiki</td>
+                        <td>Wiki.js</td>
+                    </tr?>
                     <tr>
                         <td>画像編集</td>
                         <td>Adobe Photoshop</td>
@@ -90,8 +109,12 @@
                         <td>Adobe XD</td>
                     </tr>
                     <tr>
-                        <td rowspan="2">趣味レベル</td>
-                        <td>雑務全般</td>
+                        <td>その他</td>
+                        <td>Docker</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">趣味</td>
+                        <td>Office</td>
                         <td>Word, PowerPoint, Excel</td>
                     </tr>
                     <tr>
@@ -130,13 +153,13 @@
                     <td>情報学学位</td>
                     <td>2020</td>
                 </tr>
-                <!-- <tr>
-                    <td>基本情報処理者</td>
-                    <td>2020</td>
-                </tr> -->
                 <tr>
-                    <td>TOEIC</td>
+                    <td>TOEIC 725</td>
                     <td>2020</td>
+                </tr>
+                <tr>
+                    <td>EF SET CEFR C1</td>
+                    <td>2021</td>
                 </tr>
             </table>
         </div>
@@ -171,6 +194,11 @@
                     <td>AtCoder</td>
                     <td>2020〜</td>
                     <td><a href="https://atcoder.jp/">https://atcoder.jp/</a></td>
+                </tr>
+                <tr>
+                    <td>Mango Byte</td>
+                    <td>2021〜</td>
+                    <td><a href="https://www.mango-byte.com/index-en.html">https://www.mango-byte.com/</a></td>
                 </tr>
             </table>
         </div>

@@ -88,12 +88,13 @@ $font_item: 'MuseoModerno', cursive;
             h5 {
                 color: $color_font;
                 display: inline-block;
-                margin: 10px 0;
+                margin-top: 10px;
+                font-size: 1.1vw;
             }
 
             p {
                 padding-left: 10px;
-                font-size: 1.1vw;
+                font-size: 0.9vw;
             }
         }
 
