@@ -37,7 +37,7 @@
                     </div>
                     <div class="works">
                         <div class="worksHead">
-                            <a href=""><img src="img/site_katsulab.png" alt="" class="vertical"></a>
+                            <a href="sites/katsu-lab/html/home.html"><img src="img/site_katsulab.png" alt="" class="vertical"></a>
                         </div>
                         <div class="worksName">
                             <h5>KATSU LAB</h5>
@@ -96,7 +96,7 @@
                 <div class="col col-10">
                     <div class="works">
                         <div class="worksHead">
-                            <a href=""><img src="img/service_ride.png" alt=""></a>
+                            <a href="sites/ride/index.php"><img src="img/service_ride.png" alt=""></a>
                         </div>
                         <div class="worksName">
                             <h5>RIDE</h5>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="worksName">
                             <h5>MDP</h5>
-                            <p>Javascript(Vue.js,Node.js, NestJS) / SQL</p>
+                            <p>Javascript(Node.js, NestJS) / MySQL</p>
                         </div>
                         <hr>
                         <div class="worksBody">
@@ -153,6 +153,21 @@
                             This service acts as an intermediary between clients and vendors, and processes and records the details of product management and transactions in general.<br>
                             We used RESTful API and it was new first specification to me, so I studied a lot.<br>
                             The reviews of veteran engineers were also rigorous, and it was an experience that felt like a professional work.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/rit.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>RIT</h5>
+                            <p>Javascript(Vue.js, Nuxt.js) / MySQL</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>his is one of the projects that I was involved in during my internship at a company in Cambodia. It is a system to centrally manage moving companies, introduction companies, and customers by project.<br>
+                            I was in charge of the design of a large DB consisting of about 20 tables. It took me a long time to create it, as I was studying and editing it, but it increased my knowledge of DBs, and I expect it will be useful when I create web services in the future.
                             </p>
                         </div>
                     </div>
@@ -245,7 +260,7 @@
 
         <div class="category">
             <div class="title">
-                <h3>Play</h3>
+                <h3>Drama</h3>
                 <hr>
             </div>
             <div class="row">

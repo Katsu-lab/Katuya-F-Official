@@ -37,7 +37,7 @@
                     </div>
                     <div class="works">
                         <div class="worksHead">
-                            <a href=""><img src="img/site_katsulab.png" alt="" class="vertical"></a>
+                            <a href="sites/katsu-lab/html/home.html"><img src="img/site_katsulab.png" alt="" class="vertical"></a>
                         </div>
                         <div class="worksName">
                             <h5>KATSU LAB</h5>
@@ -97,7 +97,7 @@
                 <div class="col col-10">
                     <div class="works">
                         <div class="worksHead">
-                            <a href=""><img src="img/service_ride.png" alt=""></a>
+                            <a href="sites/ride/index.php"><img src="img/service_ride.png" alt=""></a>
                         </div>
                         <div class="worksName">
                             <h5>RIDE</h5>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="worksName">
                             <h5>MDP</h5>
-                            <p>Javascript(Vue.js,Node.js, NestJS) / SQL</p>
+                            <p>Javascript(Node.js, NestJS) / MySQL</p>
                         </div>
                         <hr>
                         <div class="worksBody">
@@ -154,6 +154,22 @@
                             このサービスはクライアントとベンダーの仲介部分を担っており，商品の管理や取引全般の詳細を手続き，記録している．<br>
                             RESTful APIを採用しており，自身にとって初めての仕様だったため，勉強することが多かった．<br>
                             ベテランエンジニアのレビューも厳格で，プロの現場を感じた経験だった．
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/rit.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>RIT</h5>
+                            <p>Javascript(Vue.js, Nuxt.js) / MySQL</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>カンボジアの企業にてインターン期間中に自身が携わらせていただいたプロジェクトの一つである．引越し業者と紹介会社，顧客を案件単位で一元管理するシステム．<br>
+                            約20のテーブルから構成される大きなDBのデザインを担当した．勉強しながら，編集しながらでの作成だったために時間がかかったが，<br>
+                            DB周りの知識が一気に増えて，これからWebサービスを作成するときにも役に立つことが予想される．<br>
                             </p>
                         </div>
                     </div>

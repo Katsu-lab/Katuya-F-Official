@@ -1,0 +1,220 @@
+* {
+  font-size: 18px;
+  line-height: 1.8em;
+  font-family: "Yu Gothic", sans-serif;
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #9ec4ff), color-stop(25%, #c2daff), color-stop(60%, #d1e3ff), color-stop(80%, #e0ecff), to(#ebf3ff));
+  background: linear-gradient(to bottom, #9ec4ff 10%, #c2daff 25%, #d1e3ff 60%, #e0ecff 80%, #ebf3ff 100%);
+}
+
+.item {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 40px;
+  font-family: 'MuseoModerno', cursive;
+}
+
+#background {
+  background: white;
+  border: 2px solid black;
+  margin: 25px;
+  height: 2000px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 160px;
+}
+
+nav {
+  width: 100%;
+  height: 300px;
+  z-index: 0;
+  position: relative;
+}
+
+nav .bg-video {
+  z-index: -99;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  color: white;
+  font-family: "MuseoModerno", cursive;
+}
+
+#menu {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#menu li {
+  display: inline;
+  margin: 100px;
+}
+
+#menu button:hover {
+  color: gold;
+}
+
+aside {
+  position: fixed;
+  top: 350px;
+}
+
+aside a {
+  font-family: "MuseoModerno", cursive;
+  font-size: 15px;
+}
+
+aside span {
+  font-family: "MuseoModerno", cursive;
+}
+
+aside img {
+  width: 20px;
+}
+
+#leftside {
+  left: 0px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#rightside {
+  right: 0px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#rightside .longline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#rightside .longline::after {
+  border-top: 1px solid;
+  content: "";
+  width: 3em;
+  margin-left: 1em;
+  white-space: nowrap;
+}
+
+#rightside a {
+  display: inline-block;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  height: 1400px;
+  background-size: contain;
+}
+
+main img {
+  width: 100%;
+  height: 100%;
+}
+
+#back {
+  height: 70px;
+  width: 70%;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+#back img {
+  width: 20px;
+}
+
+#back a {
+  font-family: "MuseoModerno", cursive;
+  font-size: 20px;
+}
+
+#back a:hover {
+  color: gold;
+}
+
+footer {
+  height: 180px;
+  position: relative;
+  z-index: 0;
+  border-bottom: 2px solid black;
+}
+
+footer .bg-video {
+  z-index: -99;
+  width: 100%;
+  height: 170px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+footer img {
+  position: relative;
+  z-index: 5;
+}
+
+hr {
+  height: 10px;
+  border: 0px;
+  background-image: linear-gradient(-45deg, rgba(7, 3, 3, 0), rgba(179, 179, 179, 0) 25%, #0a0606 25%, #0e0606 50%, rgba(3, 2, 2, 0) 50%, rgba(179, 179, 179, 0) 75%, #0a0909 75%);
+  background-size: 10px 10px;
+  width: 65%;
+}
+/*# sourceMappingURL=style.css.map */

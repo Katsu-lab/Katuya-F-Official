@@ -1,0 +1,81 @@
+// MIXIN
+@mixin bg-gradient($main_color){
+    background:  linear-gradient(to bottom,
+    $main_color 10%,
+    lighten($main_color, 7%) 25%,
+    lighten($main_color, 10%) 60%,
+    lighten($main_color, 13%) 80%,
+    lighten($main_color, 15%) 100%);
+}
+
+@mixin create-article($url, $size, $col) {
+    text-align: center;
+
+    div{
+      width: 90%;
+      height: 70%;
+      margin: auto;
+      background: url($url);
+      background-size: cover;
+    }
+
+    span{
+        background: $col;
+        font-size: $size;
+        color: white;
+        display: inline-block;
+    }
+
+    h2{
+      font-size: $size + 10px;
+    }
+}
+
+@mixin button {
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px 20px 10px 10px;
+        text-align: center;
+        color: white;
+        width: 150px;
+        font-family: $font-title;
+        position: absolute;
+        top: 270px;
+        left: 350px;
+
+        &:after{
+            display: block;
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            width: 6px;
+            height: 6px;
+            margin: -4px 0 0 0;
+            border-top: solid 2px #fff;
+            border-right: solid 2px #fff;
+            -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+          }
+      }
+
+
+// CONFIGURE
+$maxW: 1200px;
+$tabW: 768px;
+$smaW: 544px;
+$color_font: #333;
+$color_red: #d48b92;
+$color_lred: #ffa2aa;
+$color_orange: #ffba80;
+$color_yellow: #d48b92;
+$color_green: #a0c080;
+$color_lblue: #9fdcff;
+$color_blue: #9ec4ff;
+$color_purple: #ab9eff;
+$font_text: 'Yu Gothic', sans-serif;
+$font_title: 'MuseoModerno', cursive;
+$font_maru: 'M PLUS Rounded 1c', sans-serif;;
+$font_gothic: 'Sawarabi Gothic', sans-serif;
+$font_big: 'Acme', sans-serif;

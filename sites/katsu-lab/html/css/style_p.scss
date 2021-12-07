@@ -1,0 +1,202 @@
+@import "functions";
+
+body {
+    @include bg-gradient(#CCFF99);
+}
+
+
+#now {
+    color: gold;
+}
+
+.parent{
+    display: flex;
+}
+
+a:hover{
+    color: gold;
+}
+
+#profile{
+    width: 80%;
+    height: 420px;
+    margin: auto;
+
+    #ore3{
+        width: 400px;
+        height: 240px;
+        position: absolute;
+        bottom: -40px;
+        left: 130px;
+        border-radius: 30px;
+    }
+
+    #ore1{
+        width: 250px;
+        height: 330px;
+        position: absolute;
+        top: 400px;
+        right: 270px;
+        border-radius: 30px;
+    }
+
+    #basic{
+        width: 70%;
+        height: 350px;
+        position: relative;
+        padding: 5px 0 0 300px;
+
+        .btn{
+            @include button;
+
+            &:hover{
+                color: gold;
+            }
+        }
+
+        span{
+            font-size: 20px;
+        }
+    }
+
+    #other{
+        width: 30%;
+        height: 350px;
+        margin-top: 30px;
+
+    }
+}
+
+
+#research{
+    width: 100%;
+    height: 370px;
+
+    #concept{
+        width: 80%;
+        height: 220px;
+        margin: auto;
+        padding: 10px 0 0 40px;
+
+        a{
+            color: red;
+        }
+    }
+
+    #system{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+
+        li{
+            display: inline;
+            margin: 50px;
+            text-decoration: underline;
+        }
+
+        a{
+            font-size: 25px;
+        }
+    }
+}
+
+#it{
+    width: 100%;
+    height: 350px;
+
+    #hobby{
+        width: 30%;
+        height: 320px;
+        margin: auto;
+        margin-top: 15px;
+        border: 3px dotted black;
+        text-align: center;
+
+        li{
+            margin-top: 10px;
+        }
+    }
+    #skill{
+        width: 30%;
+        height: 320px;
+        margin: auto;
+        margin-top: 15px;
+        border: 3px dotted black;
+        text-align: center;
+
+        span{
+            text-decoration: underline;
+        }
+
+        ul{
+            margin-top: 15px;
+        }
+
+        li{
+            display: inline;
+        }
+    }
+    #community{
+        width: 30%;
+        height: 320px;
+        margin: auto;
+        margin-top: 15px;
+        border: 3px dotted black;
+        text-align: center;
+
+        li{
+            margin-top: 10px;
+        }
+    }
+
+}
+
+#contact{
+    width: 80%;
+    height: 270px;
+    margin: auto;
+
+    .form {
+        text-align: center;
+        padding: 5px;
+    }
+
+    input, textarea {
+        display: block;
+        margin: 10px auto;
+        width: 300px;
+        padding: 5px;
+        border: 5px solid black;
+        font-size: 20px;
+        border-radius: 30px;
+
+        &:hover{
+            border-color: gold;
+        }
+    }
+
+    .btn{
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-family: $font-title;
+        display: block;
+        margin-top: 4px;
+
+        &:hover{
+            color: gold;
+        }
+    }
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+
+
+
+

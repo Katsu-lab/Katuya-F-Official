@@ -28,14 +28,14 @@
                         <th>言語名</th>
                     </tr>
                     <tr>
-                        <td rowspan="6">実務</td>
+                        <td rowspan="6">実務経験</td>
                         <td>HTML5</td>
                     </tr>
                     <tr>
                         <td>CSS3, SCSS / Bootstrap4</td>
                     </tr>
                     <tr>
-                        <td>Javascript(クライアント) /JQuery, Vue.js</td>
+                        <td>Javascript(クライアント) / Vue.js, Nuxt.js</td>
                     </tr>
                     <tr>
                         <td>PHP / Laravel</td>
@@ -68,7 +68,7 @@
                         <th>技術名</th>
                     </tr>
                     <tr>
-                        <td rowspan="11">実務</td>
+                        <td rowspan="11">実務経験</td>
                         <td>Webサーバ</td>
                         <td>MAMP</td>
                     </tr>
@@ -82,7 +82,7 @@
                     </tr>
                     <tr>
                         <td>CMS</td>
-                        <td>Wordpress</td>
+                        <td>WordPress</td>
                     </tr>
                     <tr>
                         <td>VCS</td>
@@ -137,12 +137,12 @@
 
         <div class="category">
             <div class="title">
-                <h3>資格・免許・認定</h3>
+                <h3>資格・表彰・認定</h3>
                 <hr>
             </div>
             <table>
                 <tr>
-                    <th>資格・免許・認定名</th>
+                    <th>資格・表彰状・認定証名</th>
                     <th>取得年</th>
                 </tr>
                 <tr>
@@ -154,11 +154,35 @@
                     <td>2020</td>
                 </tr>
                 <tr>
-                    <td>TOEIC 725</td>
+                    <td>Kredo ITスクール 卒業証書</td>
                     <td>2020</td>
                 </tr>
                 <tr>
                     <td>EF SET CEFR C1</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Advanced Centre for Empowerment <br> 感謝状</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Concorde International Academy <br> 卒業証書</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>Entrepreneurial Capabilities <br> 認定証</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>教育・学習支援システム若手の会 2021 <br> 優秀賞</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>大阪府立大学 2021年前期 学長顕彰</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>学生英語プレゼンテーションコンテスト 2021 優勝</td>
                     <td>2021</td>
                 </tr>
             </table>
@@ -178,27 +202,32 @@
                 <tr>
                     <td>さくらサイエンスプラン</td>
                     <td>2018</td>
-                    <td><a href="https://ssp.jst.go.jp/">https://ssp.jst.go.jp/</a></td>
+                    <td><a href="https://ssp.jst.go.jp/">ssp.jst.go.jp/</a></td>
                 </tr>
                 <tr>
                     <td>人狼知能プロジェクト</td>
                     <td>2018</td>
-                    <td><a href="http://aiwolf.org/">http://aiwolf.org/</a></td>
+                    <td><a href="http://aiwolf.org/">aiwolf.org/</a></td>
                 </tr>
                 <tr>
                     <td>M-1グランプリ</td>
                     <td>2020</td>
-                    <td><a href="https://www.m-1gp.com/">https://www.m-1gp.com/</a></td>
+                    <td><a href="https://www.m-1gp.com/">m-1gp.com/</a></td>
                 </tr>
                 <tr>
                     <td>AtCoder</td>
                     <td>2020〜</td>
-                    <td><a href="https://atcoder.jp/">https://atcoder.jp/</a></td>
+                    <td><a href="https://atcoder.jp/">atcoder.jp/</a></td>
                 </tr>
                 <tr>
                     <td>Mango Byte</td>
                     <td>2021〜</td>
-                    <td><a href="https://www.mango-byte.com/index-en.html">https://www.mango-byte.com/</a></td>
+                    <td><a href="https://www.mango-byte.com/index-en.html">mango-byte.com/</a></td>
+                </tr>
+                <tr>
+                    <td>教育・学習支援システム若手の会</td>
+                    <td>2021〜</td>
+                    <td><a href="https://sites.google.com/view/yelsswakate/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0">google.com/view/yelsswakate</a></td>
                 </tr>
             </table>
         </div>

@@ -26,7 +26,7 @@
                 </tr>
                 <tr>
                     <th>生年月日</th>
-                    <td>1998年2月25日生（22歳）</td>
+                    <td>1998年2月25日生（23歳）</td>
                 </tr>
                 <tr>
                     <th>出身地</th>
@@ -63,15 +63,15 @@
             <table>
                 <tr>
                     <th>2020〜</th>
-                    <td>大阪府立大学大学院　人間社会システム科学研究科　知識システム研究グループ</td>
+                    <td>大阪府立大学大学院 人間社会システム科学研究科 知識システム研究グループ</td>
                 </tr>
                 <tr>
                     <th>2016〜2020</th>
-                    <td>大阪府立大学　現代システム科学域　知識情報システム学類</td>
+                    <td>大阪府立大学 現代システム科学域 知識情報システム学類</td>
                 </tr>
                 <tr>
                     <th>2013〜2016</th>
-                    <td>大阪府立清水谷高校　普通科</td>
+                    <td>大阪府立清水谷高校 普通科</td>
                 </tr>
                 <tr>
                     <th>2010〜2013</th>
@@ -91,20 +91,8 @@
             </div>
             <table>
                 <tr>
-                    <th>現在</th>
-                    <td>大学院を休学し，海外勢を相手にWebエンジニアとして活動中</td>
-                </tr>
-                <tr>
-                    <th>2018〜2020</th>
-                    <td>バーテンダー（店長代理）</td>
-                </tr>
-                <tr>
-                    <th>2016〜2019</th>
-                    <td>UNIQLO グローバル旗艦店</td>
-                </tr>
-                <tr>
-                    <th>2016〜2018</th>
-                    <td>塾講師（数学・物理）</td>
+                    <th>2020〜現在</th>
+                    <td>Webエンジニア Mango Byte</td>
                 </tr>
             </table>
         </div>
@@ -119,7 +107,7 @@
                     <td><a href="https://ks.mi.s.osakafu-u.ac.jp/">・瀬田研究室</a></td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.ustra-b.com/">・USTRA BOXING CLUB</a></td>
+                    <td><a href="">・大阪府立大学 ボクシング部</a></td>
                 </tr>
                 <tr>
                     <td><a href="https://mensa.jp/about.html">・MENSA Japan</a></td>

@@ -26,7 +26,7 @@
                 </tr>
                 <tr>
                     <th>Birthday</th>
-                    <td>1998 / 2 / 25（22 years）</td>
+                    <td>1998 / 2 / 25（23 years）</td>
                 </tr>
                 <tr>
                     <th>From</th>
@@ -50,7 +50,7 @@
                 </tr>
                 <tr>
                     <th>Quote</th>
-                    <td>"Don't leave rice regret"</td>
+                    <td>"Don't leave rice and regrets"</td>
                 </tr>
             </table>
         </div>
@@ -91,8 +91,8 @@
             </div>
             <table>
                 <tr>
-                    <th>Currently</th>
-                    <td>Engineer</td>
+                    <th>2020〜Present</th>
+                    <td>Web developer</td>
                 </tr>
                 <tr>
                     <th>2018〜2020</th>
@@ -100,7 +100,7 @@
                 </tr>
                 <tr>
                     <th>2016〜2019</th>
-                    <td>UNIQLO Global Shop</td>
+                    <td>UNIQLO global shop Staff</td>
                 </tr>
                 <tr>
                     <th>2016〜2018</th>
@@ -119,7 +119,7 @@
                     <td><a href="https://ks.mi.s.osakafu-u.ac.jp/">・Seta Laboratory</a></td>
                 </tr>
                 <tr>
-                    <td><a href="http://www.ustra-b.com/">・USTRA BOXING CLUB</a></td>
+                    <td><a href="http://www.ustra-b.com/">・Osaka Prefecture University BOXING CLUB</a></td>
                 </tr>
                 <tr>
                     <td><a href="https://mensa.jp/about.html">・MENSA Japan</a></td>

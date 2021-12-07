@@ -1,0 +1,142 @@
+@import "functions";
+
+body {
+  @include bg-gradient($color_orange);
+}
+
+
+
+#now {
+  color: gold;
+}
+
+#latest{
+  width: 100%;
+  height: 500px;
+
+  #late_t{
+    width: 98%;
+    height: 420px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+
+    td{
+      // border: 3px solid lightgray;
+
+      div{
+        border-radius: 20px;
+        border: 1px solid black;
+      }
+    }
+
+  }
+
+}
+
+
+#recommend{
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+
+  #reco_t{
+    width: 98%;
+    height: 300px;
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+
+    td{
+      // border: 3px solid lightgray;
+      width: 220px;
+
+      div{
+        border-radius: 20px;
+        border: 1px solid black;
+      }
+
+    }
+  }
+}
+
+
+#cate_t {
+  width: 1000px;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+
+  td{
+    width: 160px;
+    height: 220px;
+    margin: 10px;
+
+    &:hover{
+        border: 3px solid gold;
+        img{
+          padding: 0;
+        }
+    }
+  }
+
+  img{
+    padding: 40px;
+  }
+}
+
+
+// ARTICLES
+#article1{
+  span{
+    margin: 10px 0;
+    padding: 0 3px 0;
+  }
+  @include create-article("../../img/article/fire.jpg",25px,blue);
+}
+#article2{
+  span{
+    padding: 0 3px 0;
+  }
+  @include create-article("../../img/article/slot.jpg",13px,red);
+}
+#article3{
+  span{
+    padding: 0 3px 0;
+  }
+  @include create-article("../../img/article/pacquiao.jpg",13px,green);
+}
+#article4{
+  span{
+    padding: 0 3px 0;
+  }
+  @include create-article("../../img/article/jacket.jpg",13px,orange);
+}
+#article5{
+  span{
+    padding: 0 3px 0;
+  }
+  @include create-article("../../img/article/wallet.jpg",13px,pink);
+}
+#article6{
+  span{
+    padding: 0 3px 0;
+    margin: 10px 0;
+  }
+  @include create-article("../../img/article/fourcolor.png",13px,green);
+}
+#article7{
+  span{
+    padding: 0 3px 0;
+    margin: 10px 0;
+  }
+  @include create-article("../../img/article/education.jpg",13px, skyblue);
+}
+#article8{
+  span{
+    padding: 0 3px 0;
+    margin: 10px 0;
+  }
+  @include create-article("../../img/article/cheese.png",13px,brown);
+}
+
