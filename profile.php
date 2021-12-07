@@ -33,7 +33,7 @@
                     <td>大阪府東大阪市</td>
                 </tr>
                 <tr>
-                    <th>大学院</th>
+                    <th>学校/th>
                     <td>大阪府立大学 大学院</td>
                 </tr>
                 <tr>
@@ -91,7 +91,7 @@
             </div>
             <table>
                 <tr>
-                    <th>2020〜現在</th>
+                    <th>2020〜</th>
                     <td>Webエンジニア Mango Byte</td>
                 </tr>
             </table>
@@ -114,9 +114,6 @@
                 </tr>
                 <tr>
                     <td><a href="https://www.mensa.org">・MENSA International</a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.ai-gakkai.or.jp/">・JSAI 人工知能学会</a></td>
                 </tr>
             </table>
         </div>

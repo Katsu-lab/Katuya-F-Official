@@ -1,0 +1,95 @@
+{
+    "index": [
+        {
+
+        }
+    ],
+    "profile": [
+        {
+            "basicInformation":[
+                {
+                    "title": "基本情報",
+                    "nameHead": "名前",
+                    "nameBody": "福岡 克也（フクオカ カツヤ）",
+                    "birthdayHead": "生年月日",
+                    "birthdayBody": "1998年2月25日生（23歳）",
+                    "fromHead": "出身地",
+                    "fromBody": "大阪府東大阪市",
+                    "schoolHead": "学校",
+                    "schoolBody": "大阪府立大学 大学院",
+                    "majorHead": "専攻",
+                    "majorBody": "コンピュータサイエンス",
+                    "hobbyHead": "趣味",
+                    "hobbyBody": "漫画購読，観劇，散歩，パチンコ，サイクリング<",
+                    "specialtyHead": "特技",
+                    "specialtyBody": "卓球，ボウリング，ボクシング",
+                    "quoteHead": "名言",
+                    "quoteBody": "'未練とご飯残すな'"
+                }
+            ],
+            "educationalBackground":[
+                {
+                    "title": "学歴",
+                    "graduateSchoolHead": "2020〜",
+                    "graduateSchoolBody": "大阪府立大学大学院 人間社会システム科学研究科 知識システム研究グループ",
+                    "universityHead": "2016〜2020",
+                    "universityBody": "大阪府立大学 現代システム科学域 知識情報システム学類",
+                    "highSchoolHead": "2013〜2016",
+                    "highSchoolBody": "大阪府立清水谷高校 普通科",
+                    "juniorHighSchoolHead": "2010〜2013",
+                    "juniorHighSchoolBody": "意岐部中学校",
+                    "elementarySchoolHead": "2007〜2010",
+                    "elementarySchoolBody": "意岐部小学校"
+                }
+            ],
+            "background":[
+                {
+                    "title": "職歴",
+                    "mangoByteHead": "2020〜",
+                    "mangoByteBody": "Webエンジニア Mango Byte",
+                    "bartenderHead": "2018〜2020",
+                    "bartenderBody": "バーテンダー",
+                    "uniqloHead": "2016〜2019",
+                    "uniqloBody": "アパレル店員",
+                    "elementarySchoolHead": "2016〜2018",
+                    "elementarySchoolBody": "塾講師（数学・物理）"
+                }
+            ],
+            "community":[
+                {
+                    "title": "所属団体",
+                    "setalabUrl": "https://ks.mi.s.osakafu-u.ac.jp/",
+                    "setalabBody": "瀬田研究室",
+                    "boxingUrl": "",
+                    "boxingBody": "大阪府立大学 ボクシング部",
+                    "mensaJapanUrl": "https://mensa.jp/about.html",
+                    "mensaJapanBody": "MENSA Japan",
+                    "mensaInternationalUrl": "https://www.mensa.org",
+                    "mensaInternationalBody": "MENSA International"
+                }
+            ],
+            "research":[
+                {
+                    "title": "研究",
+                    "content": "テストでい"
+                }
+            ],
+            "view":[
+                {
+                    "title": "今後の展望",
+                    "content": "テストでい"
+                }
+            ]
+        }
+    ],
+    "skill": [
+        {
+
+        }
+    ],
+    "portfolio": [
+        {
+
+        }
+    ]
+}
