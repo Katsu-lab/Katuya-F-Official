@@ -20,7 +20,7 @@ $font_item: 'MuseoModerno', cursive;
 ////////////////////////
 
 * {font-size: 1.3vw; line-height: 1.8em; font-family: $font_text; color: $color_font; box-sizing: border-box;}
-html, body {margin: 0; padding: 0; overflow-x: hidden;}
+html, body {margin: 0; padding: 0; }
 h1, h2, h3, h4, h5, h6 {margin: 0; padding: 0; line-height: 1em;}
 p {margin: 0; padding: 0;}
 a {text-decoration: none;}
