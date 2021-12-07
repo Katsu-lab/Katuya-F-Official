@@ -107,12 +107,12 @@
                         <div class="contents-body">
                             <div class="sample">
                                 <div class="mail-box">
-                                    <div class="box-title">お仕事の依頼</div>
-                                    <p><a href="mailto:katsuofukuoka0225@gmail.com">katsuofukuoka0225@gmail.com</a></p>
+                                    <div class="box-title">仕事用</div>
+                                    <p><a>katsuofukuoka0225+@gmail.com</a></p>
                                 </div>
                                 <div class="mail-box">
                                     <div class="box-title">私用</div>
-                                    <p><a href="mailto:katsuo0225@icloud.com">katsuo0225@icloud.com</a></p>
+                                    <p><a>katsuo0225+@icloud.com</a></p>
                                 </div>
                             </div>
                         </div>
