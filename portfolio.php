@@ -1,9 +1,13 @@
+<?php include_once("common/get_json.php") ?>
 <?php
     $title = "Portfolio - Katsuya F Official";
     $main = "PORTFOLIO";
     $url = "portfolio";
+    $p = $data["portfolio"];
+
+    
+    include_once("common/head.php")
 ?>
-<?php include_once("common/head.php") ?>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
 </head>
@@ -170,6 +174,34 @@
                             <p>カンボジアの企業にてインターン期間中に自身が携わらせていただいたプロジェクトの一つである．引越し業者と紹介会社，顧客を案件単位で一元管理するシステム．<br>
                             約20のテーブルから構成される大きなDBのデザインを担当した．勉強しながら，編集しながらでの作成だったために時間がかかったが，<br>
                             DB周りの知識が一気に増えて，これからWebサービスを作成するときにも役に立つことが予想される．<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/mms.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>MMS</h5>
+                            <p>Javascript(Node.js, NestJS)</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>カンボジアの企業にてインターン期間中に自身が携わらせていただいたプロジェクトの一つである．<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href=""><img src="img/wiki.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5>Company Wiki</h5>
+                            <p>wiki.js / Docker / GCE</p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p>カンボジアの企業にてインターン期間中に自身が携わらせていただいたプロジェクトの一つである．<br>
                             </p>
                         </div>
                     </div>

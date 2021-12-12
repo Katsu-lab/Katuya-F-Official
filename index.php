@@ -1,9 +1,12 @@
+<?php include_once("common/get_json.php") ?>
 <?php
     $title = "HOME - Katsuya F Official";
     $main = "WELCOME";
     $url = "index";
+    $i = $data["index"];
+
+    include_once("common/head.php")
 ?>
-<?php include_once("common/head.php") ?>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="lp">
@@ -28,8 +31,8 @@
                     <div class="contents">
                         <div class="contents-body">
                             <div class="sample">
-                                <img src="img/ore.jpg" alt="">
-                                <h4><span>福</span>岡 克也（<span>フ</span>クオカ カツヤ）</h4>
+                                <img src="img/<?php echo $i["profile"] ?>" alt="">
+                                <h4><span>K</span>atsuya <span> F</span>ukuoka</h4>
                             </div>
                             <div class="more">
                                 <a href="profile.php" class="btn btnRed">MORE</a>
@@ -51,7 +54,7 @@
                     <div class="contents">
                         <div class="contents-body">
                             <div class="sample">
-                                <img src="img/skill_pira.png" alt="">
+                                <img src="img/<?php echo $i["skill"] ?>" alt="">
                             </div>
                             <div class="more">
                                 <a href="skill.php" class="btn btnBlue">MORE</a>
@@ -83,7 +86,7 @@
                     <div class="contents">
                         <div class="contents-body">
                             <div class="sample">
-                                <img src="img/service_ride.png" alt="">
+                                <img src="img/<?php echo $i["portfolio"] ?>" alt="">
                                 <h4><span>R</span>esearch <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment</h4>
                             </div>
                             <div class="more">
@@ -107,12 +110,12 @@
                         <div class="contents-body">
                             <div class="sample">
                                 <div class="mail-box">
-                                    <div class="box-title">お仕事の依頼</div>
-                                    <p><a href="mailto:katsuofukuoka0225@gmail.com">katsuofukuoka0225@gmail.com</a></p>
+                                    <div class="box-title"><?php echo $i["mail"]["business"] ?></div>
+                                    <p><a><?php echo $i["mail"]["businessAddress"] ?></a></p>
                                 </div>
                                 <div class="mail-box">
-                                    <div class="box-title">私用</div>
-                                    <p><a href="mailto:katsuo0225@icloud.com">katsuo0225@icloud.com</a></p>
+                                    <div class="box-title"><?php echo $i["mail"]["private"] ?></div>
+                                    <p><a><?php echo $i["mail"]["privateAddress"] ?></a></p>
                                 </div>
                             </div>
                         </div>
