@@ -1,12 +1,5 @@
+<?php include_once("common/get_json.php") ?>
 <?php
-    if (True) {
-        $file = "locals/jp.json";
-    }else {
-        $file = "locals/en.json";
-    }
-    $json = file_get_contents($file);
-    $data = json_decode($json, true);
-    
     $title = "Skill - Katsuya F Official";
     $main = "SKILL";
     $url = "skill";
@@ -23,8 +16,9 @@
     $otherOtherNum = count($otherOther) + 1;
     $certificate = $s["certificate"];
     $project = $s["project"];
+
+    include_once("common/head.php")
 ?>
-<?php include_once("common/head.php") ?>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skill.css">
 </head>

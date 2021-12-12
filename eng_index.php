@@ -29,7 +29,7 @@
                         <div class="contents-body">
                             <div class="sample">
                                 <img src="img/ore.jpg" alt="">
-                                <h4><span>F</span>ukuoka <span>K</span>atsuya</h4>
+                                <h4><span>F</span>ukuoka<span>K</span>atsuya</h4>
                             </div>
                             <div class="more">
                                 <a href="eng_profile.php" class="btn btnRed">MORE</a>

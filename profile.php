@@ -1,22 +1,16 @@
+<?php include_once("common/get_json.php") ?>
 <?php
     $title = "Profile - Katsuya F Official";
     $main = "PROFILE";
     $url = "profile";
-    if (True) {
-        $file = "locals/jp.json";
-    }else {
-        $file = "locals/en.json";
-    }
-
-    $json = file_get_contents($file);
-    $data = json_decode($json, true);
     $p = $data["profile"];
     $basicInformation = $p["basicInformation"];
     $educationalBackground = $p["educationalBackground"];
     $background = $p["educationalBackground"];
     $community = $p["community"];
+
+    include_once("common/head.php")
 ?>
-<?php include_once("common/head.php") ?>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/profile.css">
 </head>
@@ -29,7 +23,7 @@
 
         <div class="category">
             <div class="title">
-                <h3>基本情報</h3>
+                <h3><?php echo $p["basicInfo"] ?></h3>
                 <hr>
             </div>
             <table class="basic">
@@ -44,7 +38,7 @@
 
         <div class="category">
             <div class="title">
-                <h3>学歴</h3>
+                <h3><?php echo $p["educationalBack"] ?></h3>
                 <hr>
             </div>
             <table>
@@ -59,7 +53,7 @@
 
         <div class="category">
             <div class="title">
-                <h3>職歴</h3>
+                <h3><?php echo $p["back"] ?></h3>
                 <hr>
             </div>
             <table>
@@ -74,7 +68,7 @@
 
         <div class="category">
             <div class="title">
-                <h3>所属団体</h3>
+                <h3><?php echo $p["commu"] ?></h3>
                 <hr>
             </div>
             <table class="group">
@@ -95,6 +89,7 @@
                 <p><?php echo $p["research"]["content"] ?></p>
             </div>
         </div>
+        
         <div class="category">
             <div class="title">
                 <h3><?php echo $p["view"]["title"] ?></h3>

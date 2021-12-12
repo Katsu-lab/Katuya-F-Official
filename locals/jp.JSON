@@ -1,6 +1,20 @@
 {
+    "index":
+    {
+        "profile": "ore.jpg",
+        "skill": "skill_pira.png",
+        "portfolio": "service_ride.png",
+        "mail":
+        {
+            "business": "仕事用",
+            "businessAddress": "katsuofukuoka0225+@gmail.com",
+            "private": "私用",
+            "privateAddress": "katsuo0225+@icloud.com"
+        }
+    },
     "profile":
     {
+        "basicInfo": "基本情報",
         "basicInformation":
             {
                 "名前": "福岡 克也（フクオカ カツヤ）",
@@ -13,6 +27,7 @@
                 "名言": "'未練とご飯残すな'"
             }
         ,
+        "educationalBack": "学歴",
         "educationalBackground":
             {
                 "2020〜": "大阪府立大学大学院 人間社会システム科学研究科 知識システム研究グループ",
@@ -21,6 +36,7 @@
                 "2010〜2013": "意岐部中学校",
                 "2007〜2010": "意岐部小学校"
             },
+        "back": "職歴",
         "background":
             {
                 "2020〜": "Webエンジニア Mango Byte",
@@ -28,6 +44,7 @@
                 "2016〜2019": "アパレル店員",
                 "2016〜2018": "塾講師（数学・物理）"
             },
+        "commu": "所属団体",
         "community":
             {
                 "https://www.mango-byte.com/index-en.html": "Mango Byte",
