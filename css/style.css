@@ -634,7 +634,7 @@ section:not(#nav) {
 }
 
 .back {
-  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .back .pagetop a {

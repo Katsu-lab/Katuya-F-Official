@@ -89,7 +89,7 @@
                 <p><?php echo $p["research"]["content"] ?></p>
             </div>
         </div>
-        
+
         <div class="category">
             <div class="title">
                 <h3><?php echo $p["view"]["title"] ?></h3>
@@ -102,5 +102,6 @@
 
         <?php include_once("common/footer.html") ?>
     </section>
+    
 </body>
 </html>
