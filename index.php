@@ -128,11 +128,10 @@
                 </div>
                 <div class="col col-right"></div>
             </div>
-
-            <?php include_once("common/footer.html") ?>
         </section>
-
-
+        
+        <?php include_once("common/footer.html") ?>
+    </section>
 
 </body>
 </html>
