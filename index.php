@@ -86,7 +86,7 @@
                     <div class="contents">
                         <div class="contents-body">
                             <div class="sample">
-                                <img src="img/<?php echo $i["portfolio"] ?>" alt="">
+                                <img src="img/portfolio/web-service/<?php echo $i["portfolio"] ?>" alt="">
                                 <h4><span>R</span>esearch <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment</h4>
                             </div>
                             <div class="more">
@@ -129,7 +129,7 @@
                 <div class="col col-right"></div>
             </div>
         </section>
-        
+
         <?php include_once("common/footer.html") ?>
     </section>
 

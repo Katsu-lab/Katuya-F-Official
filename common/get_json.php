@@ -1,9 +1,11 @@
 <?php
 if (True) {
-        $file = "locals/jp.json";
+        $file = "locales/jp.json";
     }else {
-        $file = "locals/en.json";
+        $file = "locales/en.json";
     }
     $json = file_get_contents($file);
     $data = json_decode($json, true);
+
+    // echo var_dump(realpath_cache_get());
 ?>
