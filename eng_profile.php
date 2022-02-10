@@ -33,7 +33,7 @@
                     <td>Osaka Higashi Osaka</td>
                 </tr>
                 <tr>
-                    <th>Graduate School</th>
+                    <th>School</th>
                     <td>Osaka Prefecture University</td>
                 </tr>
                 <tr>
@@ -140,12 +140,12 @@
             </div>
             <div class="box">
                 <p>
-                There is a trend in the world to make "machines" smarter. On the other hand, I want to make "people" smarter. <br>
-                That's why I'm in the field of educational technology, which uses smart computers (AI) to make humans smarter.<br>
-                I'm particularly interested in human thinking, and there are many opportunities in the real world for requesting creative, critical, and logical thinking.<br>
-                However, educational facilities like measuring thinking ability are not enough.<br>
-                Therefore, I decided to tackle on research in the such field and create a carefully thought out teaching material.<br>
-                During my undergraduate years, I aimed to build an environment for training analogical thinking, which is thought to be in charge of an important role in creative thinking. <br>
+                There is a trend in the world to make "machines" smarter. On the other hand, I want to make "people" smarter.
+                That's why I'm in the field of educational technology, which uses smart computers (AI) to make humans smarter.
+                I'm particularly interested in human thinking, and there are many opportunities in the real world for requesting creative, critical, and logical thinking.
+                However, educational facilities like measuring thinking ability are not enough.
+                Therefore, I decided to tackle on research in the such field and create a carefully thought out teaching material.
+                During my undergraduate years, I aimed to build an environment for training analogical thinking, which is thought to be in charge of an important role in creative thinking.
                 I've already created two types of systems. Please check my <a href="eng_portfolio.php">Portfolio</a> out.
                 </p>
             </div>
@@ -157,11 +157,7 @@
             </div>
             <div class="box">
                 <p>
-                One of my inner ambitions is to leave a strong impression on the people around me while I am alive.<br>
-                And I have the following two goals for my immediate future. <br>
-                ・Acquiring unique and interesting skills and careers <br>
-                ・Joining a company that has an impact on society<br>
-                I want to spend my student life meaningfully in order to achieve these goals.
+                One of my inner ambitions is to leave a strong impression on the people around me while I am alive. And I have the following two goals for my immediate future.・Acquiring unique and interesting skills and careers・Joining a company that has an impact on society I want to spend my student life meaningfully in order to achieve these goals.
                 </p>
             </div>
         </div>

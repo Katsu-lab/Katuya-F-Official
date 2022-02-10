@@ -8,6 +8,7 @@
     $webService = $p["webService"];
     $educationalSystem = $p["educationalSystem"];
     $paper = $p["paper"];
+    $poster = $p["poster"];
     $drama = $p["drama"];
 
     include_once("common/head.php")
@@ -128,10 +129,41 @@
                         </div>
                         <div class="worksName">
                             <h5><?php echo $val[0] ?></h5>
+                            <p><?php echo $val[1] ?></p>
                         </div>
                         <hr>
                         <div class="worksBody">
+                            <p><?php echo $val[2] ?></p>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+
+                </div>
+                <div class="col col-1"></div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="title">
+                <h3><?php echo $p["posters"] ?></h3>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col col-1"></div>
+                <div class="col col-10">
+
+                    <?php foreach ($poster as $key => $val) : ?>
+                    <div class="works">
+                        <div class="worksHead">
+                            <a href="img/portfolio/poster/pdf/<?php echo $key ?>.pdf"><img src="img/portfolio/poster/img/<?php echo $key ?>.png" alt=""></a>
+                        </div>
+                        <div class="worksName">
+                            <h5><?php echo $val[0] ?></h5>
                             <p><?php echo $val[1] ?></p>
+                        </div>
+                        <hr>
+                        <div class="worksBody">
+                            <p><?php echo $val[2] ?></p>
                         </div>
                     </div>
                     <?php endforeach; ?>
