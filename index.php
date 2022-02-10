@@ -1,18 +1,18 @@
-<?php include_once("common/get_json.php") ?>
+<?php include("common/get_json.php") ?>
 <?php
     $title = "HOME - Katsuya F Official";
     $main = "WELCOME";
     $url = "index";
     $i = $data["index"];
 
-    include_once("common/head.php")
+    include("common/head.php")
 ?>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="lp">
 
-<?php include_once("common/menu.php") ?>
-<?php include_once("common/header.php") ?>
+<?php include("common/menu.php") ?>
+<?php include("common/header.php") ?>
 
     <section id="main">
 
@@ -130,7 +130,7 @@
             </div>
         </section>
 
-        <?php include_once("common/footer.html") ?>
+        <?php include("common/footer.html") ?>
     </section>
 
 </body>

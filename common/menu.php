@@ -8,22 +8,22 @@
           <nav class="drawer-content">
             <ul class="drawer-list">
               <li class="drawer-item">
-                <a href="index.php">HOME</a>
+                <a href="index.php?lang=<?= $lang ?>">HOME</a>
               </li>
               <li class="drawer-item">
-                <a href="profile.php">PROFILE</a>
+                <a href="profile.php?lang=<?= $lang ?>">PROFILE</a>
               </li>
               <li class="drawer-item">
-                <a href="skill.php">SKILL</a>
+                <a href="skill.php?lang=<?= $lang ?>">SKILL</a>
               </li>
               <li class="drawer-item">
-                <a href="portfolio.php">PORTFOLIO</a>
+                <a href="portfolio.php?lang=<?= $lang ?>">PORTFOLIO</a>
               </li>
               <li class="drawer-item">
-                <a href="index.php#contact">CONTACT</a>
+                <a href="index.php?lang=<?= $lang ?>#contact">CONTACT</a>
               </li>
               <li class="drawer-item">
-                <a href="<?= $url ?>.php">JP</a> / <a href="eng_<?= $url ?>.php">EN</a>
+                <a href="<?= $url ?>.php?lang=jp">JP</a> / <a href="<?= $url ?>.php?lang=en">EN</a>
               </li>
             </ul>
           </nav>
@@ -34,12 +34,12 @@
         <nav>
             <ul>
                 <li><img src="img/logo.png" alt="K-Lab logo"></li>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="profile.php">PROFILE</a></li>
-                <li><a href="skill.php">SKILL</a></li>
-                <li><a href="portfolio.php">PORTFOLIO</a></li>
-                <li><a href="index.php#contact">CONTACT</a></li>
-                <li><a href="<?= $url ?>.php">JP</a> / <a href="eng_<?= $url ?>.php">EN</a></li>
+                <li><a href="index.php?lang=<?= $lang ?>">HOME</a></li>
+                <li><a href="profile.php?lang=<?= $lang ?>">PROFILE</a></li>
+                <li><a href="skill.php?lang=<?= $lang ?>">SKILL</a></li>
+                <li><a href="portfolio.php?lang=<?= $lang ?>">PORTFOLIO</a></li>
+                <li><a href="index.php?lang=<?= $lang ?>#contact">CONTACT</a></li>
+                <li><a href="<?= $url ?>.php?lang=jp">JP</a> / <a href="<?= $url?>.php?lang=en">EN</a></li>
             </ul>
         </nav>
     </section>
