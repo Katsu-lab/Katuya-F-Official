@@ -129,10 +129,11 @@
                         </div>
                         <div class="worksName">
                             <h5><?php echo $val[0] ?></h5>
+                            <p><?php echo $val[1] ?></p>
                         </div>
                         <hr>
                         <div class="worksBody">
-                            <p><?php echo $val[1] ?></p>
+                            <p><?php echo $val[2] ?></p>
                         </div>
                     </div>
                     <?php endforeach; ?>
@@ -158,10 +159,11 @@
                         </div>
                         <div class="worksName">
                             <h5><?php echo $val[0] ?></h5>
+                            <p><?php echo $val[1] ?></p>
                         </div>
                         <hr>
                         <div class="worksBody">
-                            <p><?php echo $val[1] ?></p>
+                            <p><?php echo $val[2] ?></p>
                         </div>
                     </div>
                     <?php endforeach; ?>

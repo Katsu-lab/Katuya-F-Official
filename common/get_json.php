@@ -1,5 +1,5 @@
 <?php
-if (True) {
+if (!True) {
         $file = "locales/jp.json";
     }else {
         $file = "locales/en.json";
