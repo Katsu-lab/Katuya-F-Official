@@ -35,7 +35,7 @@
                                 <h4><span>K</span>atsuya <span> F</span>ukuoka</h4>
                             </div>
                             <div class="more">
-                                <a href="profile.php" class="btn btnRed">MORE</a>
+                                <a href="profile.php?lang=<?= $lang ?>" class="btn btnRed">MORE</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                                 <img src="img/<?php echo $i["skill"] ?>" alt="">
                             </div>
                             <div class="more">
-                                <a href="skill.php" class="btn btnBlue">MORE</a>
+                                <a href="skill.php?lang=<?= $lang ?>" class="btn btnBlue">MORE</a>
                             </div>
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                                 <h4><span>R</span>esearch <span>I</span>ntegrated <span>D</span>evelopment <span>E</span>nvironment</h4>
                             </div>
                             <div class="more">
-                                <a href="portfolio.php" class="btn btnGreen">MORE</a>
+                                <a href="portfolio.php?lang=<?= $lang ?>" class="btn btnGreen">MORE</a>
                             </div>
                         </div>
                     </div>
